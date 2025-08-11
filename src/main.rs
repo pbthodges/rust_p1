@@ -1,7 +1,7 @@
 
 use rand::Rng;
 fn main() {
-    println!("Hello, world!");
+    println!("Bye, world!");
     let mut rng = rand::rng();
     let random_number: u32 = rng.random();
     println!("Random number: {}", random_number);
